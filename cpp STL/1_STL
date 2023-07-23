@@ -1,0 +1,72 @@
+C++ STL (Standard Tag Library)
+
+The Standard Template Library (STL) is a set of C++ template classes to provide common programming data structures and functions such as lists, stacks, arrays, etc. It is a library of container classes, algorithms, and iterators. It is a generalized library and so, its components are parameterized. Working knowledge of template classes is a prerequisite for working with STL.
+
+Some of the key components of the STL include:
+
+
+Algorithms: 
+
+
+The STL provides a range of algorithms, such as sort, find, and binary_search, which can be used to manipulate data stored in containers.
+
+1. Nonmutating algorithms: 
+Nonmutating algorithms are the algorithms that do not alter any value of a container object nor do they change the order of the elements in which they appear. These algorithms can be used for all the container objects, and they make use of the forward iterators.
+
+2. Mutating algorithms: 
+Mutating algorithms are the algorithms that can be used to alter the value of a container. They can also be used to change the order of the elements in which they appear.
+Sorting algorithms: Sorting algorithms are the modifying algorithms used to sort the elements in a container.
+
+3. Set algorithms:
+Set algorithms are also known as sorted range algorithm. This algorithm is used to perform some function on a container that greatly improves the efficiency of a program.
+
+4. Relational algorithms: 
+Relational algorithms are the algorithms used to work on the numerical data. They are mainly designed to perform the mathematical operations to all the elements in a container.
+
+----------------------------------------------------------------------------
+
+Iterators: 
+
+
+Iterators are objects that provide a way to traverse the elements of a container. The STL provides a range of iterators, such as forward_iterator, bidirectional_iterator, and random_access_iterator, that can be used with different types of containers.
+
+1. Input iterator:
+An Input iterator is an iterator that allows the program to read the values from the container.
+An Input iterator can be incremented, but it cannot be decremented.
+
+2. Output iterator:
+An output iterator is similar to the input iterator, except that it allows the program to modify a value of the container, but it does not allow to read it.
+It is a one-way iterator.
+It is a write only iterator.
+
+3. Forward iterator:
+Forward iterator uses the ++ operator to navigate through the container.
+Forward iterator goes through each element of a container and one element at a time.
+
+4. Bidirectional iterator:
+A Bidirectional iterator is similar to the forward iterator, except that it also moves in the backward direction.
+It is a two way iterator.
+It can be incremented as well as decremented.
+
+5. Random Access Iterator:
+Random access iterator can be used to access the random element of a container.
+Random access iterator has all the features of a bidirectional iterator, and it also has one more additional feature, i.e., pointer addition. By using the pointer addition operation, we can access the random element of a container.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Function Objects:
+
+A Function object is a function wrapped in a class so that it looks like an object.
+Function objects, also known as functors, are objects that can be used as function arguments to algorithms. They provide a way to pass a function to an algorithm, allowing you to customize its behavior.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Adapters: 
+
+Adapters are components that modify the behavior of other components in the STL. For example, the reverse_iterator adapter can be used to reverse the order of elements in a container.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+C++ STL Containers :
+
+Containers can be described as the objects that hold the data of the same type. Containers are used to implement different data structures for example arrays, list, trees, etc.
+
